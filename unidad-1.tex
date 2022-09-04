@@ -1,0 +1,78 @@
+% Created 2022-08-22 lun 12:07
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Galindo}
+\date{\today}
+\title{Tipos De Requerimientos}
+\hypersetup{
+ pdfauthor={Galindo},
+ pdftitle={Tipos De Requerimientos},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Funcional}
+\label{sec:orgb0dcb5d}
+Definición de los servicios que el sistema debe proporcionar, cómo debe reaccionar a una entrada particular y cómo se debe comportar ante situaciones particulares. los requerimientos se dividen en dos tipos principales:
+
+\begin{description}
+\item[{de usuario}] son declaraciones de los servicios que se espera que el sistema provea y de las restricciones bajos las cuales se debe operar.
+
+\item[{del sistema}] establecen con detalle los servicios y restricciones del sistema.
+\end{description}
+
+\section{No funcionales}
+\label{sec:org98e7f79}
+Son los que actúan para limitar la soluciones, se los conoce como restricciones o requisitos de calidad. A los requisitos no funcionales se los puede dividir en:
+
+\begin{description}
+\item[{Requisitos de producto}] Estos especifican el comportamiento del producto
+
+\item[{Requisitos de organización}] se derivan de políticas y procedimientos existentes en la organización del cliente y en la del desarrollador.
+
+\item[{Requisitos externos}] son los requisitos que derivan de los factores externos al sistemas y de su proceso de desarrollo, incluyen requerimientos de inseparabilidad que definen la manera en que el sistema interactúa con los otros sistemas de la organizacion.
+\end{description}
+
+\section{FURPS+}
+\label{sec:org3766d74}
+Patrones de clasificasion de requerimientos
+
+\begin{description}
+\item[{Facilidad de uso (Usability)}] Caracteristicas, capacidades y algunos aspectos de seguridad, por ejemplo: se debe ver el texto fácilmente a una distancia de un metro
+
+\item[{Fiabilidad (reliability)}] Factores humanos (interacción), documentación, ayuda, etc, un ejemplo de este tipo de requerimiento sería: Si se produce algún fallo al usar un servicio externo solucionarlo localmente.
+
+\item[{Rendimiento (performance)}] Tiempo de respuesta, productividad, precisión, disponibilidad, use de los recursos. Ejemplo: Conseguir la autorizacion de pago en menos de 1 minuto el 90\% de las veces.
+
+\item[{Soporte (Supportability)}] Adaptabilidad, facilidad de mantenimiento, internacionalización, facilidad de recuperación de un fallo y grado de previsión. Ejemplo: el sistema debe ser instalable por los usuarios.
+
+\item[{Implementacion (plus)}] Limitación de recursos, lenguajes y herramientas, hardware.
+
+\item[{Interfaz (plus)}] Restricciones impuestas para la interacción con sistemas externos (no es GUI)
+
+\item[{Operaciones (plus)}] Gestión del sistema, pautas administrativas, puesta en marcha.
+
+\item[{Empaquetamiento (plus)}] Forma de distribución.
+
+\item[{Legales (plus)}] Licencia, derechos de autor, etc.
+\end{description}
+\end{document}

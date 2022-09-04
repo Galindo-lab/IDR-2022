@@ -1,0 +1,96 @@
+
+
+
+#+TITLE:  Mapa Mental De La Ingeniería \\
+#+TITLE:  De Requerimientos
+
+#+AUTHOR: Luis Eduardo Galindo Amaya \\
+#+AUTHOR: 1274895 
+#+DATE:   2022-08-14
+
+
+
+#+LATEX_HEADER: \newcommand{\tagline}{Práctica 1}
+#+LATEX_HEADER: \newcommand{\asignatura}{Ingeniería De Requerimientos}
+#+LATEX_HEADER: \newcommand{\docente}{Claudia Gabriel Tona Castro}
+
+#+include: ./includes/titlepage.org
+#+OPTIONS: num:t
+
+* Instrucciones
+Realizar un reporte que contenga las siguientes actividades:
+
+1. Realizar un mapa mental sobre la ingeniería de requerimientos considerando:
+   + Definición.
+   + Técnicas de recolección de requerimientos.
+   + Tipos de requerimientos.
+   + Patrones de clasificación de requerimientos.
+   + Calidad en los requerimientos.
+   + Administración de requerimientos.
+
+2. Hacer una tabla enlistando las ventajas y desventajas que presenta la ingeniería de requerimientos dentro del ciclo de desarrollo de software.
+
+* Tabla De Ventajas Y Desventajas
+#+ATTR_LATEX: :options [t]{0.48\linewidth}
+#+BEGIN_minipage
+Ventajas
+- Expresar la intención que tiene el actor (usuario).
+- Extraer los requerimientos del usuario y del sistema.
+- Centrar al analista en las tareas principales de usuario (describiendo los casos de mayor importancia).
+- Tener en cuenta todos los usuarios evitando que las personas especializadas en informática dirijan la funcionalidad del nuevo sistema basándose solamente en criterios tecnológicos.
+#+END_minipage
+#+ATTR_LATEX: :options [t]{0.48\linewidth}
+#+BEGIN_minipage 
+Desventajas
+- No establecen los requisitos funcionales.
+- Tampoco permiten establecer los requisitos no funcionales.
+- Los casos de uso deben complementarse con información adicional.
+- Cada caso crítico del uso debe tener un requisito no funcional centrado en el funcionamiento asociado.
+#+END_minipage
+
+* Mapa Mental
+#+BEGIN_SRC plantuml :file ./mapa_mental.png
+@startmindmap
+!theme plain
+scale 2.5
+ *: Ingeniería de 
+requerimientos;
+ **_ ¿Qué es?
+ *** Es proceso de recopilar, analizar y verificar las necesidades del cliente para un sistema de software
+ 
+ **_ Requerimientos
+ *** Son las necesidades que requiere que el Sistema deba de cumplir. 
+ ***_ Tipos
+ **** Funcionales
+ **** No Funcionales
+ ****_ Otros
+ ***** Calidad
+ ***** Restricciones
+ ***_ Patrones
+ **** Funcional
+ **** Usabilidad
+ **** Confiabilidad
+ **** Desempeño
+ **** Soporte
+ **** Implementación
+ **** Interfaz
+ **** Operacione1s
+ **** Empaquetamiento
+ **** Legales
+
+ **_ Técnicas
+ *** Cuestionarios
+ *** Prototipos 
+ *** Sesiones
+ *** Entrevistas
+ *** Seguimiento
+
+@endmindmap
+#+END_SRC
+
+#+ATTR_LATEX: :width 130mm 
+#+RESULTS:
+[[file:./mapa_mental.png]]
+
+* Conclusiones
+- Determinar los requerimientos de un proyecto es indispensable para simplificar el proceso del diseño del software, una correcta categorización de los requerimientos puede ayudarnos a elegir las tecnologías adecuadas. Como ingenieros en software es importante tener la habilidad de desglosar las ideas del Stakeholders para poder diseñar un plan de acción con el equipo y los requerimientos son fundamentales para lograr esto. 
